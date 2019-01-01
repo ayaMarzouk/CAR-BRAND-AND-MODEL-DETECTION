@@ -198,7 +198,7 @@ pool5_7_7 = dropout(pool5_7_7, 0.4)
 
 # fc
 loss = fully_connected(pool5_7_7, 196, activation='softmax', weights_init = tflearn.initializations.xavier())
-network = regression(loss, optimizer='momentum',
+network = regression(loss, optimizer='adam',
                      loss='categorical_crossentropy',
                      learning_rate=0.001, name='targets')
 
