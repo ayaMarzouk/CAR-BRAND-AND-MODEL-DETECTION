@@ -1,10 +1,10 @@
 # CAR-BRAND-AND-MODEL-DETECTION
 
-#Note:
+# Note:
 you need to download Project's dataset (train & test) to start the project.
-#Dataset link:
+# Dataset link:
 https://www.kaggle.com/c/fcis-deep-learning-competition/data
-#Competition Link: 
+# Competition Link: 
 https://www.kaggle.com/c/fcis-deep-learning-competition
 
 Image Classification based on the contextual data of the image. firstly we applied several data preprocessing and data augmentation.
